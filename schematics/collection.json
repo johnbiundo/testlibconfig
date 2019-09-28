@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "nest-add": {
+      "description": "Adds NestJS Config Manager to a project",
+      "factory": "./install/install.factory#main",
+      "schema": "./install/schema.json",
+      "aliases": ["nestjs-config-manager"]
+    }
+  }
+}

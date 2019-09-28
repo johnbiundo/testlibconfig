@@ -1,6 +1,9 @@
-src/
-tsconfig.json
-tsconfig.build.json
-nodemon.json
+# source
+lib
+/index.ts
+package-lock.json
+tslint.json
 .prettierrc
-coverage/
+
+# schematics
+schematics/install/*.ts
